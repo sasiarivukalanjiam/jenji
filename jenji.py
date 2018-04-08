@@ -53,7 +53,9 @@ if __name__ == '__main__':
             speak_test_cmd("Hello Sasi, How can i help you?")
             continue
         elif "open" in voice_note:
-            os.system('explorer c:\\ {}'.format(voice_note.replace('Open ','')))
+            root = r'C:\Windows\explorer.exe /root,"C:\"'
+            print(root)
+            os.system(""+root+"{}".format(voice_note.replace('open ','')))
             continue
         elif "bye" in voice_note:
             speak_test_cmd("Good Bye Sasi !! ")

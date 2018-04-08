@@ -1,7 +1,7 @@
 # jenji
 python speech recognition
 
-# Required Batteries 
+# Required Batteries
 
         pip install pyttsx3
         pip install SpeechRecognition
