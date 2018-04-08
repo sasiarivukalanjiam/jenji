@@ -22,7 +22,7 @@ voices = engine.getProperty('voices')
 for voice in voices:
     print(voice.id)
 
-engine.setProperty("voice","HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_10.0")
+engine.setProperty("voice","HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_10.0")
 rate = engine.getProperty("rate")
 engine.setProperty("rate",rate)
 
